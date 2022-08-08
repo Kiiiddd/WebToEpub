@@ -6,7 +6,7 @@ class ComrademaoParser extends Parser{
     constructor() {
         super();
     }
-
+/
     disabled() {
         return chrome.i18n.getMessage("warningParserDisabledComradeMao");
     }
@@ -15,7 +15,7 @@ class ComrademaoParser extends Parser{
     clampSimultanousFetchSize() {
         return 1;
     }
-
+/
     populateUI(dom) {
         super.populateUI(dom);
         document.getElementById("removeOriginalRow").hidden = false; 
